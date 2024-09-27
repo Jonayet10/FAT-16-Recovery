@@ -79,8 +79,6 @@ int main(int argc, char *argv[]) {
 
     bios_parameter_block_t bpb;
 
-    /* TODO: Write your code here. */
-
     // skip past the master boot record
     fseek(disk, MASTER_BOOT_RECORD_SIZE, SEEK_SET);
     // fread the bios parameter block
